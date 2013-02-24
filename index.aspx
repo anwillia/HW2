@@ -4,11 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Calculate Net Weekly Pay</title>
 </head>
 <body>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
     <form id="form1" runat="server">
-    <div>
+    <div class="style1">
+    
+        Calculate Net Weekly Pay<br />
+        <br />
     
         Hourly wage:
         <asp:TextBox ID="hourlyWageTextBox" runat="server"></asp:TextBox>
@@ -31,7 +35,7 @@
         <asp:Button ID="clearButton" runat="server" Text="Clear" />
         <br />
         <br />
-        Net Weekly Pay: 
+        Net Weekly Pay:
         <asp:Label ID="resultsLabel" runat="server"></asp:Label>
     
     </div>
